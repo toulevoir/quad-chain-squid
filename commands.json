@@ -14,7 +14,7 @@
         "cmd": ["node", "query-gateway/scripts/checkKey.js", "query-gateway/keys/quadProc.key"],
         "hidden": true
       },
-      "up": {
+            "up": {
         "deps": ["check-key"],
         "description": "Start a PG database",
         "cmd": ["docker", "compose", "up", "-d"]
